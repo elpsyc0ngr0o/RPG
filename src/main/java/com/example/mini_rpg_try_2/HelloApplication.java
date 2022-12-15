@@ -17,7 +17,7 @@ public class HelloApplication extends Application {
         Parent root = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml")).load();
 
 
-        stage.setTitle("Mini RPG Lite 3000");
+        stage.setTitle("Mini RPG 3000 Lite");
 
         stage.setScene(new Scene(root, SCREEN_SIZE, SCREEN_SIZE));
         stage.show();
